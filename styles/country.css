@@ -1,0 +1,51 @@
+.all-countries
+{
+    margin-left: 20px;
+    margin-right: 15px;
+}
+
+.country-heading
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+#country-container
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+
+.country
+{
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: aquamarine;
+    padding: 5px;
+}
+
+.details-btn
+{
+    padding: 5px;
+    background-color: lightcoral;
+    border-radius: 5px;
+    color: white;
+}
+
+.details-btn:hover
+{
+    background-color: lightyellow;
+    color: black;
+}
+
+.country-details-container
+{
+    background-color: lightslategray;
+    width: 400px;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 8px;
+}

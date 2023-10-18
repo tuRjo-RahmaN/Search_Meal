@@ -1,0 +1,31 @@
+#user-btn
+{
+    background-color: deepskyblue;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+    color: white;
+
+}
+
+#user-btn:hover
+{
+    background-color: blue;
+}
+
+
+.user-container
+{
+    width: 500px;
+    background-color: gold;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px;
+    margin-left: 80px;
+}
+
+#photo
+{
+    width: 150px;
+}
